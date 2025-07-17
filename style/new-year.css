@@ -9,16 +9,11 @@
   font-style: normal;
 }
 
+section{
+    margin-top: 100px;
+}
 /* Header Section */
-/* .header{
-    background-image: url('../images/Banner\ Image.png');
-    max-width: 1320px;
-    margin: 0 auto;
-    height: 30rem;
-    width: 100%;
-    object-fit: cover;
 
-} */
  .header{
     max-width: 1320px;
     margin: 0 auto;
@@ -46,4 +41,36 @@
     font-weight: 500;
     margin: 50px 0 0 0;
     color: white;
+}
+
+/* Offer Section */
+
+.offer{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.offers-items{
+    max-width: 800px;
+    margin: 0 auto;
+    display:flex ;
+    text-align: center;
+}
+.off{
+    font-size: 4rem;
+    color: red;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.sub{
+    margin: 10px 0  0 0;
+    font-size: 0.9rem;
+    color: red;
+    font-weight: 500;
+}
+.all-claction{
+    font-size: 2rem;
+    margin: 10px 0 50px 0;
+}
+.full img{
+    width: 100%;
 }
