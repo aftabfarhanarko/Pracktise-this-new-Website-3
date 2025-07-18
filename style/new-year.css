@@ -200,11 +200,56 @@ section {
     font-weight: 600;
     margin: 10px 0;
 }
-.dicption, .numb-diption{
+.dicption, .numb-diption, .dicption-sell{
     color: rgb(116, 115, 115);
 }
 
 
+
+/* holidays sale */
+.holidays{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.text-sec{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.new-te{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 8px 0;
+}
+.boro-text{
+    font-size: 3.2rem;
+margin: 0 0  20px 0;
+}
+.color{
+    color: red;
+}
+/* .img-section img{
+    max-width: 1320px;
+} */
+ .towes{
+    display: flex;
+ }
+ .towes img{
+    width: 100%;
+ }
+
+#right{
+    float: right;
+    height: 200px;
+    width: 250px;  
+}
+#buttom{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 8px;
+   object-fit:cover ;
+} 
 @media screen and (max-width:576px) {
     .text-wellcome {
         padding-left: 20px;
@@ -222,5 +267,12 @@ section {
     .Third{
      margin-left: 20px;
      text-align: center;
+    }
+    #buttom{
+        width: 100%;
+        object-fit: cover;
+    }
+    #right{
+       margin-right: 55px;
     }
 }
