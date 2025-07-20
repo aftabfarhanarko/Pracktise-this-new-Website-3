@@ -200,7 +200,9 @@ section {
     font-weight: 600;
     margin: 10px 0;
 }
-.dicption, .numb-diption, .dicption-sell{
+.dicption, 
+.numb-diption, 
+.dicption-sell , .uiwj{
     color: rgb(116, 115, 115);
 }
 
@@ -210,6 +212,7 @@ section {
 .holidays{
     max-width: 1320px;
     margin: 0 auto;
+    position: relative;
 }
 .text-sec{
     max-width: 900px;
@@ -228,9 +231,6 @@ margin: 0 0  20px 0;
 .color{
     color: red;
 }
-/* .img-section img{
-    max-width: 1320px;
-} */
  .towes{
     display: flex;
  }
@@ -238,18 +238,58 @@ margin: 0 0  20px 0;
     width: 100%;
  }
 
+ #left{
+    position: absolute;
+    top: 300px;
+    height: 500px;
+ }
 #right{
+    position: relative;
     float: right;
     height: 200px;
     width: 250px;  
+    top: 100px;
 }
 #buttom{
-   display: block;
+   margin-top: 300px;
    width: 100%;
-   height: 600px;
+   height: 200px;
    border-radius: 8px;
    object-fit:cover ;
 } 
+
+
+/* cardes */
+.cardes{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.text-card{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.net{
+    font-size: 1rem;
+    color: red;
+    font-weight: 600;
+    margin: 0;
+}
+.gift{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 14px 0;
+}
+.imges-cards img{
+    height: 300px;
+    width: 330px;
+}
+.imges-cards{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
 @media screen and (max-width:576px) {
     .text-wellcome {
         padding-left: 20px;
@@ -268,11 +308,27 @@ margin: 0 0  20px 0;
      margin-left: 20px;
      text-align: center;
     }
-    #buttom{
-        width: 100%;
-        object-fit: cover;
+    
+    .imges-cards{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 15px;
     }
-    #right{
-       margin-right: 55px;
-    }
+     #left{
+        top: 220px;
+   height: 300px;
+ }
+#right{
+    height: 150px;
+    width: 150px;  
+    top: 10px;
+}
+#buttom{
+   margin-top: 50px;
+   width: 100%;
+   height: 200px;
+   border-radius: 8px;
+   object-fit:cover ;
+} 
+
 }
