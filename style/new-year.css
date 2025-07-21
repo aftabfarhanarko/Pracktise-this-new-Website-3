@@ -290,6 +290,50 @@ margin: 0 0  20px 0;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
+
+/* email-section */
+.email-section{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #FFF2F2;
+    border-radius: 8px;
+}
+.meseages-box-number{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+.meseages-box-number img{
+    max-width: 100px;
+}
+.meseages-teitle{
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.dicption-meseages{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: rgb(86, 85, 85);
+}
+input[type="email"]{
+    padding: 11px 150px 11px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px  0   0  50px;
+}
+.submit-btn{
+    padding: 11px 25px ;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 50px 50px 0;
+}
+
 @media screen and (max-width:576px) {
     .text-wellcome {
         padding-left: 20px;
