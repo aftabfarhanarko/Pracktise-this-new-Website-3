@@ -334,6 +334,47 @@ input[type="email"]{
     border-radius: 0 50px 50px 0;
 }
 
+
+/* Footer */
+footer{
+    background-color: #070211;
+    color: white;
+    margin-top: 100px;
+}
+.section-cointerner{
+    padding: 50px;
+}
+.firstqweewrr{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    border-bottom: 3px solid #17053a;
+    padding-bottom: 30px;
+}
+.thardopeu{
+      max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    border-bottom: 3px solid #17053a;
+    padding: 30px 7px 10px 7px;
+}
+.dic{
+    margin-top: 0;
+    max-width: 260px;
+    line-height: 30px;
+}
+.icon{
+    line-height: 30px;
+margin: 0%;
+}
+
+
 @media screen and (max-width:576px) {
     .text-wellcome {
         padding-left: 20px;
@@ -352,15 +393,14 @@ input[type="email"]{
      margin-left: 20px;
      text-align: center;
     }
-    
     .imges-cards{
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 15px;
     }
      #left{
-        top: 220px;
-   height: 300px;
+        top: 330px;
+       height: 300px;
  }
 #right{
     height: 150px;
@@ -374,5 +414,32 @@ input[type="email"]{
    border-radius: 8px;
    object-fit:cover ;
 } 
+input[type="email"]{
+    padding: 11px 50px 11px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px  0   0  50px;
+}
+.section-cointerner{
+    padding: 50px;
+    gap: 20px;
+}
+.firstqweewrr{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: none;
+    gap: 10px;
+}
+.thardopeu{
+flex-direction: column;
+    border-bottom: none;
+    padding: 30px 7px 10px 7px;
+    justify-content: center;
+}
+.dic{
+    margin: 0 auto;
+}
+
 
 }
